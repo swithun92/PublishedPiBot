@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="PiBotFramework.exe" version="1.0.0.1" publicKeyToken="b53f2a10dbaf1fb3" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PiBotFramework" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PiBotFramework.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Google.Apis.dll" size="77312">
+      <assemblyIdentity name="Google.Apis" version="1.44.1.0" publicKeyToken="4B01FA6E34DB77AB" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Yld3Hyxc2+Hf5hhn1AB4FCsi755mxqT1hKQpr3DsYNw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Google.Apis.Core.dll" size="72704">
+      <assemblyIdentity name="Google.Apis.Core" version="1.44.1.0" publicKeyToken="4B01FA6E34DB77AB" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>11dgGRXDTb6nUPPNaE81OrnATD8Oc/CWZjecRWXp/+c=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Google.Apis.Kgsearch.v1.dll" size="15360">
+      <assemblyIdentity name="Google.Apis.Kgsearch.v1" version="1.44.1.1885" publicKeyToken="4B01FA6E34DB77AB" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>MJ2GiuI53fCRgrPg4T/8rPaMwgjNVcFjacY8G8i4FCI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Google.Apis.PlatformServices.dll" size="4608">
+      <assemblyIdentity name="Google.Apis.PlatformServices" version="1.44.1.0" publicKeyToken="4B01FA6E34DB77AB" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>GaNXNaivwC+asIb4BJzYjCs2H8PMUojY7+D0GjPlzNY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NAudio.dll" size="513536">
+      <assemblyIdentity name="NAudio" version="1.10.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>vEusw7iyjYmPFnG3nyFsykOfletgzTLT4+yvvsrEJ4A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="700336">
+      <assemblyIdentity name="Newtonsoft.Json" version="12.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>f5ErKKB8Im4L46z7L1fwUFOKugEA+h8L8sOfGh8dqBQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PiBotFramework.exe" size="7576">
+      <assemblyIdentity name="PiBotFramework" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ESreKezivCEqoRknGeJ8tvXT5LQe3r3n9dZO304xia0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="PiBotFramework.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=MSI\timfr" issuerKeyHash="91e76fa922a6f98086bb571fa0735e64edc3d8c2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ZaYTSOrxgJiTaAR6q2Y+sIMOKzvM1NtECVUkxe/kSfk=</DigestValue></Reference></SignedInfo><SignatureValue>lNrfCORui3ZUwXEyUSSyJQs/644zhKvxRUafFzrwJib7bDNdgJKq00AZntfpuPu/3qSTHxYyKP/UNnTbUn8EcXa4SSNvBriGtxlIElkX8g2ZxE9plPEj598Q7KFqktuMW7b/uD3llUqpip74oCG6QDXgTtIBCadYU+SL3H91KyY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>8Aob0q8pLO37tKYDjH+WarP8pI1J1Rqq7Gqlvp929puZYcC1C7Jeo0tgYZkOXvasqvYx6CtXBHg6H1+6jo1Ql00hlsZIrsyGVZrmBUKYVpE2oacmt6XHAOp0zPvl74/zlzHBKEm5Si5qHZk/Q3dLQISEZlGeW+Tk34U5Z7VWQgk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f949e4efc524550944dbd4cc3b2b0e83b03e66ab7a0468939880f1ea4813a665" Description="" Url=""><as:assemblyIdentity name="PiBotFramework.exe" version="1.0.0.1" publicKeyToken="b53f2a10dbaf1fb3" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MSI\timfr</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>OFNqYWpgpb5wgg5fB6pHKr0OPNNG+IerxKddqI2CKL0=</DigestValue></Reference></SignedInfo><SignatureValue>AVclugC45rb1R2iw91U24WuFlXu0k3lbXYIyKENhgYg7+dWgQRCIJCV0P0So87YynPAEFr+Rh6NC5TXOd9MIIuQ5maj2pjranlRk0yVKxm5o/hDh0ar4IW0VueAbxLoNba/VYbkG5pgLzNk7BunoPU0IvCa0Wg3LPk1O/0dNqq0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>8Aob0q8pLO37tKYDjH+WarP8pI1J1Rqq7Gqlvp929puZYcC1C7Jeo0tgYZkOXvasqvYx6CtXBHg6H1+6jo1Ql00hlsZIrsyGVZrmBUKYVpE2oacmt6XHAOp0zPvl74/zlzHBKEm5Si5qHZk/Q3dLQISEZlGeW+Tk34U5Z7VWQgk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBvTCCASagAwIBAgIQVhA8KSOFy4FGu72J7aaoYzANBgkqhkiG9w0BAQsFADAdMRswGQYDVQQDHhIATQBTAEkAXAB0AGkAbQBmAHIwHhcNMjAwMzMxMTcxNTIzWhcNMjEwMzMxMjMxNTIzWjAdMRswGQYDVQQDHhIATQBTAEkAXAB0AGkAbQBmAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAPAKG9KvKSzt+7SmA4x/lmqz/KSNSdUaquxqpb6fdvabmWHAtQuyXqNLYGGZDl72rKr2MegrVwR4Oh9fuo6NUJdNIZbGSK7MhlWa5gVCmFaRNqGnJrelxwDqdMz75e+P85cxwShJuUouah2ZP0N3S0CEhGZRnlvk5N+FOWe1VkIJAgMBAAEwDQYJKoZIhvcNAQELBQADgYEANgTd4C3at5uru6PpsyR7wuylNqQoSABAgmU9RD3g7Cz/z2qFziF5iTvS2NctwMqjqFRd7j+u1hPsVZ4Q+xUCm49mRJU9Y3qOozf+a3twxENgYGfmCQqTfT5esnrMGfI+bUSttqIsdzELQbPKc4qNQ4EjI0lFrfjmrTKH5tCDEog=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
